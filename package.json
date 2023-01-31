@@ -1,0 +1,20 @@
+{
+  "name": "workspace-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:ws1",
+    "test:ws1": "npm test -w workspace1 test"
+  },
+  "workspaces": [
+    "workspace1"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pyroscope/nodejs": "^0.2.5",
+    "jest": "^29.4.1"
+  }
+}
